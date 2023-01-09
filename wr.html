@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wash Room</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br>
+    <div class="header-h2">
+        <br><br>
+        <h2>WASH ROOM DESIGNS</h2>
+    </div>
+
+    <div class="full-img" id="fullimgBox">
+        <img src="Images/WR1.jpg" id="fullimg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+
+    <div class="wr-gallery">
+        <img src="Images/WR1.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR2.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR3.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR4.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR5.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR6.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR7.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR8.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR9.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR10.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR11.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR12.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR13.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR14.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR15.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR16.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR17.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR18.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR19.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR20.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR21.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR22.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR23.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR25.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR26.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR27.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR28.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR29.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR30.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR31.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR32.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR33.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR34.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR35.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR36.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR37.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR38.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR39.jpg" onclick="closeFullImg(this.src)">
+        <img src="Images/WR40.jpg" onclick="closeFullImg(this.src)">
+    </div>
+
+    <script>
+
+        var fullimgBox = document.getElementById("fullimgBox");
+        var fullimg = document.getElementById(fullimg);
+
+        function openFullImg(pic){
+            fullimgBox.style.display = "flex";
+            fullimg.src = pic;
+        }
+
+        function closeFullImg(){
+            fullimg.style.display = "none";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br>
+    <div class="header-h2">
+        <br><br>
+        <h2>KITCHEN DESIGNS</h2>
+    </div>
+
+    <div class="full-img" id="FullPicBox">
+        <img src="Images/K1.jpg" id="FullPic">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+
+    <div class="k-gallery">
+        <img src="Images/K1.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K2.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K3.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K4.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K5.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K6.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K7.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K8.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K9.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K10.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K11.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K12.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K13.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K14.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K15.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K16.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K18.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K19.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K20.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K21.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K22.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K23.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K24.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K25.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K26.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K27.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K28.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K29.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K30.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K31.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K32.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K33.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K34.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K35.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K36.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K38.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K39.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K40.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K17.jpg" onclick="openFullImg(this.src)">
+        <img src="Images/K37.jpg" onclick="openFullImg(this.src)">
+    </div>
+
+    <script>
+        var FullPicBox = document.getElementById("FullPicBox");
+        var FullPic = document.getElementById("FullPic");
+
+        function openFullImg(pic){
+            FullPicBox.style.display = "flex";
+            FullPic.src = pic;
+        }
+
+        function closeFullImg(){
+            FullPicBox.style.display = "none";
+        }
+    </script>
+</body>
+</html>

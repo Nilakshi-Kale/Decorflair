@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>ABOUT US Page</title>
+</head>
+
+<body>
+    <section class="sub-header">
+
+        <nav>
+           <div class="logo">
+           <h3>DecorFlair</h3>
+           </div>
+           <div class="nav-links"id="navLinks">
+            <i class="fa fa-times"onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="service.html">SERVICES</a></li>
+                <li><a href="images.html">IMAGES</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+           </div>
+           <div class="search_box">
+            <input type="search" placeholder="Search here">
+            <span class="fa fa-search"></span>
+       </div>
+           <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <h1>OUR SERVICES</h1>
+    </section>
+
+<!-- SERVICE content -->
+
+    <section class="service">
+    <div class="section">
+        <div class="title">
+    
+        </div>
+    <div class="services">
+        <div class="card">
+            <div class="icon">
+                <i class="fas fa-calendar"></i>
+            </div>   
+            <h2>Planning</h2>
+            <p>An interior design project plan might be scattered across various sketchbooks, to-do lists, bookmarks, and laptop folders</p>
+            <a href="planning.html"class="button">Read More</a>
+         </div>
+         <div class="card">
+            <div class="icon">
+                <i class="fas fa-wrench"></i>
+            </div>   
+            <h2>Renovation</h2>
+            <p>Rennovate is one of the leading renovation service providers and interior design companies. We have an experience of more than one decade in the renovation spectrum.</p>
+            <a href="renovate.html"class="button">Read More</a>
+         </div>
+         <div class="card">
+            <div class="icon">
+                <i class="fas fa-handshake"></i>
+            </div>   
+            <h2>Support</h2>
+            <p>With the world becoming increasingly digital, consumers have come to expect brands to be responsive and approachable, so communication must be a top priority for your company</p>
+            <a href="support.html"class="button">Read More</a>
+         </div>
+    </div>
+
+   
+
+</section>
+    
+    <!-- Footer -->
+
+<section class="footer">
+    <h4>SERVICE</h4>
+    <p>The DecorFlair in-house licensed design team will personally guide you from concept through completion and honor your functional needs and style to deliver a unique interior environment tailored specifically for you. Our renowned customer service and longstanding industry relationships will enhance every step of your design process.</p>
+    
+</section>
+
+<!-- Javascript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

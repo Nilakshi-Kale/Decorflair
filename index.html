@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>HOME Page</title>
+</head>
+
+
+<!-- Body Tag start here -->
+<body>
+    <section class="header">
+        <nav>
+           <div class="logo"> 
+           <h3>DecorFlair</h3>
+           </div>
+           <div class="nav-links"id="navLinks">
+            <i class="fa fa-times"onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="service.html">SERVICES</a></li>
+                <li><a href="images.html">IMAGES</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+           </div>
+     
+           <div class="search_box">
+                <input type="search" placeholder="Search here">
+                <span class="fa fa-search"></span>
+           </div>
+      
+           <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+
+
+<!-- Quote for website -->
+        <div class="text-box">
+            <h1>We Help You To Make Fascinating Interior</h1>
+            <p>Designers craft spaces that anticipate our needs and appeal to our emotions while pulling from a broad set of skills and technical knowledge. Interior design has changed dramatically since the early 20th century when it was just beginning to emerge as a profession.
+            </p>
+        <a href=""class="hero-btn">Visit Us To Know More</a>    
+        </div>
+    </section>
+
+
+<div class="row">
+    <!-- ABOUT -->
+
+    <div class="col"> 
+        <h3>ABOUT</h3>
+        <p>The Interior Designer will create functional, safe, and aesthetically pleasing spaces by assessing space requirements, determining optimal furniture placement, and selecting decorative items, all while adhering to relevant blueprint, building code, and inspection requirements.</p>
+
+    </div>
+
+    <!-- SERVICES -->
+    <div class="col"> 
+        <h3>SERVICES</h3>
+        <p>The seek out the best local partners and experts to form teams that can effectively execute a project vision. And, we stay with a project from conceptualization to completion and beyond, while a new environment develops and a new community takes shape.</p>
+
+    </div>
+
+    <!-- CONTACT -->
+    <div class="col"> 
+        <h3>CONTACT</h3>
+        <p>Start The Conversation, We Are Always Ready To Help You. Drop Us A Line And We Will Get Back To You With A Great Idea.</p>
+    </div>    
+</div>
+
+
+<!-- TESTIMONIALS -->
+
+<section class="testimonials">
+    <h1>What Our Client Says</h1>
+    <p>Our clients have been giving us rave reviews. That's because in addition to our creative and functional approach, our business is built on creating professional, yet personal relationships.</p>
+
+    <div class="row">
+       
+        <div class="testimonials-col">
+            <img src="Images/testimonial1.jpg">
+            <div>
+                <p>“..WORKING FOR MANY YEARS AND CONSISTENTLY RETURN TO THEM FOR A VARIETY OF PROJECTS…”
+                    “We have been working with Rachel, Shanna and their team  for many years and consistently return to them for a variety of projects, ranging from mixed use commercial, to showhomes and multifamily. Their specifications are always on trend and drawings extremely detailed so there are few gaps for contractors to miss. We look forward to working with them again as we continue the development of McKinley Beach and other projects throughout Kelowna.”</p>
+                    <h3>~ ANDREW GAUCHER</h3>
+            </div>
+        </div>
+
+        <div class="testimonials-col">
+            <img src="Images/testimonial2.jpg">
+            <div>
+                <p>“Working with  was a great experience!  Combined my ideas and vision with their expertise and experience, to come up with a beautifully designed space, considered not only what the space was going to look like, but also how it was going to be used. Throughout the entire design and construction process attention to detail was second to none.  I am extremely happy with the service provided by Company, and with the way our space turned out.  I would highly recommend Company to anyone who is looking to renovate a commercial or retail space.”</p>
+                <h3>~ SCOTT STANGER</h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>At Home-Designing, we document inspiration. Our aim is to bring to our readers a steady set of resources that would help them visualize, create and maintain beautiful homes. <br> Our emphasis is on visuals that motivate you.</p>
+    
+</section>
+
+
+
+
+
+
+<!-- Javascript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html> 
+
+ 
